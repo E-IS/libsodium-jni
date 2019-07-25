@@ -2,7 +2,8 @@
 
 export GRADLE_OPTS="-Dorg.gradle.native=false -Dorg.gradle.daemon=true"
 export NDK_VERSION=r19c
-export ANDROID_SDK_VERSION=r28.0.2
+export ANDROID_SDK_VERSION=r29.0.0
+export ANDROID_SDK_TOOLS_VERSION=4333796
 export CLANG_VERSION=5.0
 
 if uname -a | grep -q -i darwin; then
